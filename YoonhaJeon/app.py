@@ -116,7 +116,7 @@ with controls:
 # =========================
 # 4) Tabs
 # =========================
-tab_list, tab_stats = st.tabs(["리콜 목록", "통계"])
+tab_list, tab_stats = st.tabs(["🚗 리콜 목록", "🚨 통계"])
 
 # Load + Filter
 df_raw = load_recall_data()
