@@ -11,12 +11,22 @@ import mysql.connector
 # =========================
 # 1) DB CONFIG
 # =========================
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+HOST = os.getenv('HOST')
+PORT = os.getenv('PORT')
+USER = os.getenv('USER')
+PASSWORD = os.getenv('PASSWORD')
+DATABASE = os.getenv('DATABASE')
+
 DB_CONFIG = {
-    "host": "192.168.2.76",
-    "port": 3306,
-    "user": "yhjeon0315",
-    "password": "yhjeon0315",
-    "database": "motor_chata",
+    "host": HOST,
+    "port": PORT,
+    "user": USER,
+    "password": PASSWORD,
+    "database": DATABASE,
 }
 
 

@@ -17,7 +17,6 @@ from recall_repo import (
 # =========================
 st.set_page_config(page_title="Car Recall Information Site", layout="wide")
 st.title("자동차 리콜 현황")
-st.caption("DB 기반 MVP (객체 리스트 기반 렌더링, 차트는 DataFrame 래핑만 사용)")
 
 
 # =========================
