@@ -30,3 +30,4 @@ erDiagram
 
     tbl_manufacturer ||--o{ tbl_model : "1:N"
     tbl_model ||--o{ tbl_recall : "1:N"
+dsdf
